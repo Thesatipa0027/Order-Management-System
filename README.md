@@ -2,12 +2,19 @@
 Create a java project for Order management system. Below are some high-level features in this app. 
 
 1.Add Order 
+
 2.View Order 
+
 3.View By Order Id 
+
 4.Sort Order 
+
 5.Delete Order by Id 
-6.Mark as Delivered. 
+
+6.Mark as Delivered.
+
 7.Generate Report. 
+
 8.Exit 
 
 Create an Order Class with following properties. 
@@ -28,11 +35,7 @@ Private Delivery Datetime: LocalDateTime
 
 Create and interface ‘OrderManagement’ for all the methods. 
 
- 
-
 Create a text file called ‘OrderManagement.txt’ for storing the Order Data in file system. 
-
- 
 
 On Start of application show the following menu. 
 
@@ -40,21 +43,21 @@ Menu:
 
 ************Order Management System************* 
 
-Add Order 
+1.Add Order 
 
-View Order List 
+2.View Order List 
 
-View By Order Id 
+3.View By Order Id 
 
-Sort Order 
+4.Sort Order 
 
-Delete Order by Id 
+5.Delete Order by Id 
 
-Mark as Delivered. 
+6.Mark as Delivered. 
 
-Generate Report. 
+7.Generate Report. 
 
-Exit 
+8.Exit 
 
 Choose Option: 
 
@@ -146,19 +149,19 @@ Show a Sub-menu and ask for Sort property input.
 
 ******** Choose Sort Order Property********* 
 
-OrderId 
+1.OrderId 
 
-Order Desc 
+2.Order Desc 
 
-DeliveryAddress 
+3.DeliveryAddress 
 
-Order Date 
+4.Order Date 
 
-Amount 
+5.Amount 
 
-Delivery Datetime 
+6.Delivery Datetime 
 
-Exit 
+7.Exit 
 
 Sort List based on selected option and show the result on the screen. 
 
