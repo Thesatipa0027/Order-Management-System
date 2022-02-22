@@ -172,6 +172,13 @@ public class User {
                                        System.out.print("Enter Order Id:");
                                        String ord = scan.next();
                                        impl.deleteById(ord);
+                                       
+                                        //Auto Exit After List Is Empty
+                                       list=impl.addToList();
+                                       if(list.size()==0){
+                                           System.out.println("Order list is empty");
+                                           break;
+                                       }
 
                                        do {
                                            System.out.println("Do you want to delete another order(Y/N):");
