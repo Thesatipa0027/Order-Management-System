@@ -1,21 +1,14 @@
 # Order-Management-System
 Create a java project for Order management system. Below are some high-level features in this app. 
 
-Add Order 
-
-View Order 
-
-View By Order Id 
-
-Sort Order 
-
-Delete Order by Id 
-
-Mark as Delivered. 
-
-Generate Report. 
-
-Exit 
+1.Add Order 
+2.View Order 
+3.View By Order Id 
+4.Sort Order 
+5.Delete Order by Id 
+6.Mark as Delivered. 
+7.Generate Report. 
+8.Exit 
 
 Create an Order Class with following properties. 
 
